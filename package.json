@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@types/commander": "^2.12.5",
+    "ai": "^6.0.197",
+    "chalk": "^5.6.2"
+  },
+  "name": "tui-starter-main",
+  "private": true,
+  "bin": {
+    "opencodee": "./src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

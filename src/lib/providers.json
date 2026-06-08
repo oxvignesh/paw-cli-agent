@@ -1,0 +1,16 @@
+{
+  "providers": [
+    {
+      "name": "Open AI",
+      "slug": "openai"
+    },
+    {
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "name": "Google",
+      "slug": "google"
+    }
+  ]
+}
