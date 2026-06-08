@@ -1,4 +1,4 @@
-# claw 🐾
+# paw 🐾
 
 A lightweight CLI coding agent built with Bun, Commander, and AI SDK.
 
@@ -17,14 +17,14 @@ bun link
 ## Usage
 
 ### 1. Provider Management
-* **List providers:** `claw providers list`
-* **Log in:** `claw login -p <openai|anthropic|gemini> -a <api_key>`
-* **Set provider:** `claw setProvider -p <provider_name>`
-* **Log out / unset:** `claw logout -p <provider_name>` / `claw unsetProvider`
+* **List providers:** `paw providers list`
+* **Log in:** `paw login -p <openai|anthropic|gemini> -a <api_key>`
+* **Set provider:** `paw setProvider -p <provider_name>`
+* **Log out / unset:** `paw logout -p <provider_name>` / `paw unsetProvider`
 
 ### 2. Model Management
-* **List models:** `claw models list`
-* **Set model:** `claw setModel -m <model_slug>`
+* **List models:** `paw models list`
+* **Set model:** `paw setModel -m <model_slug>`
 
 ### 3. Run Agent
-* **Execute prompt:** `claw agent -p "your prompt here"`
+* **Execute prompt:** `paw agent -p "your prompt here"`
